@@ -1,0 +1,27 @@
+:root {
+    /* colors*/
+    --color-white: #fff;
+
+    --color-orange-gray: #FFF7ED;
+    --color-light-orange:  #FFCC8D;
+    --color-orange: #FF8C38;
+    
+    --color-light-gray: #AAAAAA;
+    --color-dark-gray: #4D4D4D;
+
+    --color-dark: #000;
+    --color-dark-100: #161616;
+    
+    --color-light-dark: #252525;
+
+
+    /* attributes */
+    --edge-margin: 1.625rem;
+  }
+  
+  
+  body {
+    background-color: var(--color-orange-gray);
+    font-family: 'Inter', sans-serif;
+  }
+  

@@ -1,0 +1,11 @@
+.footer {
+    min-height: 4.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-light-dark);
+    color: var(--color-light-gray);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5rem;
+}

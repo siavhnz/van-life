@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.415rem;
+    background-image: url('../../assets/images/jumbotron.jpg');
+    background-size: cover;
+    padding: 4rem var(--edge-margin) 4rem;
+    color: var(--color-white);
+}
+
+.title {
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+}
+
+.desc {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.button {
+    margin-top: 1.825rem;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+    background-color: var(--color-orange);
+    border-radius: 0.25rem;
+    min-height: 3rem;
+}

@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.25rem var(--edge-margin) 2.125rem;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    color: var(--color-dark);
+}
