@@ -1,0 +1,55 @@
+.container {
+    padding-right: var(--edge-margin);
+    padding-left: var(--edge-margin);
+    margin-bottom: 5.25rem;
+}
+.back {
+    display: flex;
+    align-items: baseline;
+    column-gap: 0.625rem;
+    color: var(--color-dark-100);
+    margin-top: 2.5rem;
+}
+.back > span {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-decoration: underline;
+}
+.image {
+    border-radius: 0.25rem;
+    margin-top: 2.5rem;
+}
+.type {
+    margin-top: 3.25rem;
+}
+.title {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.125rem;
+    color: var(--color-dark-100);
+}
+
+.price-container {
+    margin-top: 0.625rem;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+    color: var(--color-dark-100);
+}
+
+.desc {
+    margin-top: 0.625rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.action {
+    margin-top: 1.125rem;
+}

@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Router } from 'react-router-dom'
-import { About, Home, Vans } from './routes';
+import { About, Home, Vans, VanDetail } from './routes';
 import makeServer from "./server";
 
 import './assets/css/app.css';
@@ -14,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/vans" element={<Vans />} />
+        <Route path="/vans/:id" element={<VanDetail />} />
       </Routes>
     </BrowserRouter>
   )

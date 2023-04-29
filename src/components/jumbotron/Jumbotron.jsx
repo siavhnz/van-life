@@ -1,3 +1,4 @@
+import CallToAction from "../ui/CallToAction";
 import styles from "./Jumbotron.module.css";
 
 const Jumbotron = () => {
@@ -8,9 +9,9 @@ const Jumbotron = () => {
         <p className={styles.desc}>
             Add adventure to your life by joining the #vanlife movement. Rent the perfect van to make your perfect road trip.
         </p>
-        <button className={styles.button}>
+        <CallToAction className={styles.button}>
             Find your van
-        </button>
+        </CallToAction>
     </div>
 }
 

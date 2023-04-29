@@ -22,10 +22,4 @@
 
 .button {
     margin-top: 1.825rem;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 2rem;
-    background-color: var(--color-orange);
-    border-radius: 0.25rem;
-    min-height: 3rem;
 }
