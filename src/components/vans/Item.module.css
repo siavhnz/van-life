@@ -1,0 +1,35 @@
+.image {
+    border-radius: 0.25rem;
+}
+
+.title-container {
+    margin-top: 0.625rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: var(--color-dark-100);
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.period {
+    font-weight: 500;
+    font-size: 0.875rem;
+}

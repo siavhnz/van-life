@@ -22,11 +22,11 @@ This is a practice to learn react-router-dom based on [Bob Ziroll Course](https:
  
 ### Links
 
-- Live Site: [netlify.app](https://must-edit-this-url.netlify.app)
+- Live Site: [netlify.app](https://van-life-practice.netlify.app)
 
 ### Design assets
 
-- Figma: [figma.com](https://www.figma.com/file/igDA2NiMDhoaIIAqm5EnTq/%23VanLife?node-id=0-1)
+- [Figma](https://www.figma.com/file/igDA2NiMDhoaIIAqm5EnTq/%23VanLife?node-id=0-1)
 
 ## My process
 - Watch a Concept
@@ -37,13 +37,15 @@ This is a practice to learn react-router-dom based on [Bob Ziroll Course](https:
   - Vite
   - React
   - React Router
+  - Miragejs
 
 
 ### What I learned
  - Install React by vite
  - Add react-router-dom to the project
- - 
-
+ - How to create fake server with [miragejs]()
+ - Create Route and Link
+ 
 ## Author
 
 - Github - [@siavhnz](https://www.github.com/siavhnz)

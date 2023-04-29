@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.375rem;
+    margin-top: 3.375rem;
+    margin-bottom: 3.375rem;
+    padding-left: var(--edge-margin);
+    padding-right: var(--edge-margin);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.125rem;
+}
+
+.actions {
+    display: flex;
+    column-gap: 1.25rem;
+    row-gap: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.clear-action {
+    color: var(--color-dark-gray);
+    text-decoration: underline;
+    margin-left: 1.25rem;
+}
