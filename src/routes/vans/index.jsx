@@ -1,5 +1,5 @@
-import Filter from "../components/vans/Filter";
-import List from "../components/vans/List";
+import Filter from "../../components/vans/Filter";
+import List from "../../components/vans/List";
 
 const Vans = () => {
     return <>

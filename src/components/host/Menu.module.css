@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    column-gap: 1.75rem;
+    padding-right: var(--edge-margin);
+    padding-left: var(--edge-margin);
+    margin-top: 2rem;
+}
+
+.nav a {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: var(--color-dark-gray);
+}

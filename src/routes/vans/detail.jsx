@@ -1,15 +1,13 @@
-
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import Button from "../ui/Button";
+import Button from "../../components/ui/Button";
 import BackArrow from "../../assets/images/arrow.png";
-import CallToAction from "../ui/CallToAction";
-import styles from "./Detail.module.css";
+import CallToAction from "../../components/ui/CallToAction";
+import styles from "./detail.module.css";
 
-const Detail = () => {
+const VanDetail = () => {
 
-    const params = useParams();
-    const { id } = { ...params };
+    const { id } = useParams();
     const [detail, setDetail] = useState();
 
     useEffect(() => {
@@ -55,4 +53,4 @@ const Detail = () => {
     </div>
 }
 
-export default Detail;
+export default VanDetail;

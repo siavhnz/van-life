@@ -1,4 +1,3 @@
-import Button from "./Button";
 import styles from "./CallToAction.module.css";
 
 const CallToAction = (props) => {
