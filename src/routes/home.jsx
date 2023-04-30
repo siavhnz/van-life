@@ -1,10 +1,7 @@
 import Jumbotron from "../components/jumbotron/Jumbotron";
-import Master from "./master";
 
 const Home = () => {
-    return <Master>
-        <Jumbotron />
-    </Master>
+    return <Jumbotron />
 }
 
 export default Home;

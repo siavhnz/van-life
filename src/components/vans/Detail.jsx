@@ -16,7 +16,7 @@ const Detail = () => {
         fetch(`/api/vans/${id}`)
             .then(res => res.json())
             .then(data => setDetail(data.van));
-    }, [])
+    }, [id])
 
     console.log(detail);
 

@@ -1,10 +1,7 @@
 import Detail from "../components/vans/Detail";
-import Master from "./master";
 
 const VanDetail = () => {
-    return <Master>
-        <Detail />
-    </Master>
+    return <Detail />
 }
 
 export default VanDetail;

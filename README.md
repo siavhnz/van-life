@@ -43,8 +43,10 @@ This is a practice to learn react-router-dom based on [Bob Ziroll Course](https:
 ### What I learned
  - Install React by vite
  - Add react-router-dom to the project
- - How to create fake server with [miragejs]()
+ - How to create fake server with [miragejs](https://miragejs.com/)
  - Create Route and Link
+ - Get url params with useParams hook
+ - Use LayoutRoute and Outlet concept for creating a master page
  
 ## Author
 

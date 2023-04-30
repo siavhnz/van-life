@@ -1,9 +1,8 @@
-import Master from "./master";
 import Banner from "../assets/images/about.jpg";
 import styles from "./about.module.css";
 
 const About = () => {
-    return <Master>
+    return <>
         <div>
             <img alt="about banner" src={Banner} />
         </div>
@@ -25,7 +24,7 @@ const About = () => {
                 <button>Explore your vans</button>
             </div>
         </div>
-    </Master>
+    </>
 }
 
 export default About;
