@@ -1,0 +1,17 @@
+.price-container {
+    margin-top: 2.75rem;
+    margin-bottom: 3rem;
+
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.price-container span:first-child {
+    font-size: 1.5rem;
+    color: var(--color-dark-100);
+}
+
+.price-container span:nth-child(2){
+    color: var(--color-dark-gray);
+}

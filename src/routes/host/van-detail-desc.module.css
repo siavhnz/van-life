@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 1.75rem;
+    
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+}
+
+.label {
+    font-weight: 700;
+    color: var(--color-dark-100);
+    text-transform: capitalize;
+    padding-right: 0.25rem;
+}
+
+.container h2,
+.container p {
+    display: inline;
+}

@@ -1,17 +1,17 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from "./Menu.module.css";
 
 const Menu = () => {
     return <nav className={styles.menu}>
-        <Link to="/host">
+        <NavLink to="/host" className={({ isActive }) => isActive ? styles["active-link"] : null}>
             host
-        </Link>
-        <Link to="/about">
+        </NavLink>
+        <NavLink to="/about" className={({ isActive }) => isActive ? styles["active-link"] : null}>
             about
-        </Link>
-        <Link to="/vans">
+        </NavLink>
+        <NavLink to="/vans" className={({ isActive }) => isActive ? styles["active-link"] : null}>
             vans
-        </Link>
+        </NavLink>
     </nav>
 }
 

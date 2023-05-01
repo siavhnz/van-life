@@ -2,10 +2,13 @@
 
 This is a practice to learn react-router-dom based on [Bob Ziroll Course](https://scrimba.com/learn/reactrouter6).
 
+**Because this is a practice for React Router so:**
+- Not think much about responsiveness
+- Not think much about components names and app structure, reusablity, or conventions
+
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [Design assets](#design-assets)
 - [My process](#my-process)
@@ -15,14 +18,10 @@ This is a practice to learn react-router-dom based on [Bob Ziroll Course](https:
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-
-### Screenshot
-
-![screenshot](./screenshot/screenshot.png)
  
 ### Links
 
-- Live Site: [netlify.app](https://van-life-practice.netlify.app)
+- [Live Site](https://van-life-practice.netlify.app)
 
 ### Design assets
 
@@ -44,9 +43,11 @@ This is a practice to learn react-router-dom based on [Bob Ziroll Course](https:
  - Install React by vite
  - Add react-router-dom to the project
  - How to create fake server with [miragejs](https://miragejs.com/)
- - Create Route and Link
- - Get url params with useParams hook
- - Use LayoutRoute and Outlet concept for creating a master page
+ - Create `Route` and `Link`
+ - Get url params with `useParams` hook
+ - Use `LayoutRoute` and `Outlet` concept for creating a master page
+ - Indicate the current page usign `NavLink`
+ - Get data in nested routes with `useOutletContext`
  
 ## Author
 

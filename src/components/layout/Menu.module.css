@@ -10,3 +10,9 @@
     line-height: 1.5rem;
     color: var(--color-dark-gray);
 }
+
+.menu .active-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--color-dark-100);
+}

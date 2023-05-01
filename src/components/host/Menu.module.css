@@ -12,3 +12,9 @@
     line-height: 1.5rem;
     color: var(--color-dark-gray);
 }
+
+.nav .active-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--color-dark-100);
+}

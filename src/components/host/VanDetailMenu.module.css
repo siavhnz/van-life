@@ -1,0 +1,15 @@
+.nav {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: var(--color-dark-gray);
+    display: flex;
+    column-gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.nav .active-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--color-dark-100);
+}
